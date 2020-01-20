@@ -2,6 +2,10 @@ import 'package:docs_app/models/treatment_slides.dart';
 
 class Constants{
 
+  static final String SPLASH_SCREEN='SPLASH_SCREEN';
+
+  static final String AEO_DOCS='AEO_DOCS';
+
   static List<TreatmentsSlides> getTreatmentsSlides(){
 
     return [

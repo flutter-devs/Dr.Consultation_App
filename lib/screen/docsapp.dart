@@ -2178,87 +2178,93 @@ class _DocsAppState extends State<DocsApp> {
                 child: Padding(
                   padding: EdgeInsets.only(
                       top: 45.0, left: 20.0, right: 20.0, bottom: 5.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Container(
-                        padding: EdgeInsets.only(bottom: 15.0),
-                        child: Icon(
-                          Icons.menu,
-                          color: Colors.white,
+                  child: Container(
+                    child:Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        Container(
+                          padding: EdgeInsets.only(bottom: 15.0),
+                          child: Icon(
+                            Icons.menu,
+                            color: Colors.white,
 // size:0,
+                          ),
                         ),
-                      ),
-                      Column(
-                        children: <Widget>[
-                          Container(
-                            padding: EdgeInsets.only(top: 10.0),
-                            child: Icon(
-                              Icons.face,
-                              color: Colors.white,
-                              size: 40.0,
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.only(top: 20.0),
+                              child: Icon(
+                                Icons.face,
+                                color: Colors.white,
+                                size: 40.0,
+                              ),
                             ),
-                          ),
-                          Text(
-                            'Talk to Doctor',
-                            style: TextStyle(
-                                color: Colors.white, fontSize: 10.0),
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: <Widget>[
-                          Container(
-                            padding: EdgeInsets.only(top: 10.0),
-                            child: Icon(
-                              Icons.local_hospital,
-                              color: Colors.white,
-                              size: 40.0,
+                            SizedBox(height:7.0,),
+                            Text(
+                              'Talk to Doctor',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 10.0),
                             ),
-                          ),
-                          Text(
-                            'Get Gold',
-                            style: TextStyle(
-                                color: Colors.white, fontSize: 10.0),
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: <Widget>[
-                          Container(
-                            padding: EdgeInsets.only(top: 10.0),
-                            child: Icon(
-                              Icons.monetization_on,
-                              color: Colors.white,
-                              size: 40.0,
+                          ],
+                        ),
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.only(top: 20.0),
+                              child: Icon(
+                                Icons.local_hospital,
+                                color: Colors.white,
+                                size: 40.0,
+                              ),
                             ),
-                          ),
-                          Text(
-                            'Medicines',
-                            style: TextStyle(
-                                color: Colors.white, fontSize: 10.0),
-                          ),
-                        ],
-                      ),
+                            SizedBox(height:7.0,),
+                            Text(
+                              'Get Gold',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 10.0),
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.only(top: 20.0),
+                              child: Icon(
+                                Icons.monetization_on,
+                                color: Colors.white,
+                                size: 40.0,
+                              ),
+                            ),
+                            SizedBox(height:7.0,),
+                            Text(
+                              'Medicines',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 10.0),
+                            ),
+                          ],
+                        ),
 
-                      Column(
-                        children: <Widget>[
-                          Container(
-                            padding: EdgeInsets.only(top: 10.0),
-                            child: Icon(
-                              Icons.cancel,
-                              color: Colors.white,
-                              size: 40.0,
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.only(top: 20.0),
+                              child: Icon(
+                                Icons.cancel,
+                                color: Colors.white,
+                                size: 40.0,
+                              ),
                             ),
-                          ),
-                          Text(
-                            'Lab Tests',
-                            style: TextStyle(
-                                color: Colors.white, fontSize: 10.0),
-                          ),
-                        ],
-                      ),
-                    ],
+                            SizedBox(height:7.0,),
+                            Text(
+                              'Lab Tests',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 10.0),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
